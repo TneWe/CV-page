@@ -1,11 +1,120 @@
-
-ul{
-  text-transform: capitalize;
-  text-align: left;
-  font-family: sans-serif;
-  font-size: 10 px;
-  text-shadow: 3 px 3 px 1 px rgb(125, 6, 236);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style:none ;
+  font-family: 'Roboto Condensed', sans-serif;
 }
+body{
+  background: linear-gradient(to left,#ff6b47,#ff956c);
+}
+
 img{
   border-radius: 50%;
+  
+}
+.resume{
+
+  width:800px;
+  background:  #fff;
+  margin:25px auto;
+  display:flex;
+}
+.left{
+  background: #FF9E48;
+  width: 250px;
+  padding:0 20px;
+}
+ .right{
+   width: calc(100%- 250px);
+ }
+
+ .left .img_holder{
+   text-align: left;
+   padding: 20px 0;
+ }
+
+ .left .img_holder img{
+    width:180 px;
+    border-radius: 30px;
+ }
+ .pb{
+   padding-bottom: 20px;
+ }
+
+ .title{
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   padding-bottom: 20px;
+    position: relative;
+    text-align: left;
+   margin-bottom: 15px;
+ }
+
+ .title:before{
+  content: "";
+  position: absolute;
+  top:30 px;
+  right:0;
+  width: 50px;
+  height:7 px;
+ background: #CC7E39; 
+}
+
+.left .icon{
+  font-size: 20px;
+  color: #f57c02;
+}
+.left .text {
+  color: #f57c02;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.contact .li_wrapp{
+display: flex;
+align-items: center;
+width: 100%;
+margin-bottom: 15px;
+}
+.contact .li_wrapp .icon {
+  width:50px;
+  height: 50px;
+  background: chocolate;
+  display: flex;
+}
+.contact .li_wrapp .text {
+  width: calc(100%-50px);
+  word-break: break-all;
+  color: #ff6b47;
+}
+
+.skills ul,
+.hobbies ul{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills .li_wrapp,
+.hobbies .li_wrapp{
+  margin-bottom: 15px;
+  width: 100px;
+  height: 100 px;
+  border-radius: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.skills .li_wrapp .text,
+.hobbies .li_wrapp .text {
+  margin-top: 10 px;
+
+}
+.hobbies .li_wrapp {
+  border: 	2px, solid #fff;
 }
