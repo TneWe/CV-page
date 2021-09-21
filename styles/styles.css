@@ -66,10 +66,10 @@ img{
 
 .left .icon{
   font-size: 20px;
-  color: #f57c02;
+  color: #f53100;
 }
 .left .text {
-  color: #f57c02;
+  color: #f53100;
   text-transform: uppercase;
   font-size: 15px;
 }
@@ -83,13 +83,13 @@ margin-bottom: 15px;
 .contact .li_wrapp .icon {
   width:50px;
   height: 50px;
-  background: chocolate;
+  background: f53100;
   display: flex;
 }
 .contact .li_wrapp .text {
   width: calc(100%-50px);
   word-break: break-all;
-  color: #ff6b47;
+  color: #f53100;
 }
 
 .skills ul,
@@ -117,4 +117,93 @@ margin-bottom: 15px;
 }
 .hobbies .li_wrapp {
   border: 	2px, solid #fff;
+  
+}
+
+.hobbies .li_wrapp .icon,
+.hobbies .li_wrapp .text{
+  color:#fff;
+}
+.hobbies .li_wrapp:hover{
+  background: rgb(240, 146, 4);
+}
+.hobbies .li_wrapp:hover .icon,
+.hobbies .li_wrapp:hover .text{
+  color:#fff;
+}
+.header{
+  background: #FF9E48;
+  padding: 15px 30 px;
+  color: #fff;
+  height: 200 px;
+}
+.header .name {
+  font-size: 52 px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f53100;
+}
+.header .role {
+  font-weight: 350;
+  font-size: 20 px ;
+}
+.header .about {
+  margin-top:20 px;
+  line-height:26 px ;
+}
+
+.right_inner{
+  padding:30px;
+  color: #f53100;
+}
+.right_inner .education{
+  margin-top: 30 px;
+  }
+.right_inner .li_wrapp{
+  display: flex;
+  margin-bottom: 15px;
+}
+.right_inner .li_wrapp .date{
+  width: 125 px;
+  color: #ff6b47;
+}
+.right_inner .li_wrapp .info{
+width: calc(100%-125 px);
+position: relative;
+padding-left: 25px;
+}
+.right_inner .li_wrapp .info_title{
+text-transform: uppercase;
+font-weight:600 ;
+letter-spacing: 2px;
+color:#f53100;
+}
+.right_inner .li_wrapp .info_com{
+font-weight: 350;
+font-size: 14px;
+margin-top: 3px;
+}
+.right_inner .li_wrapp .info_cont{
+margin-top: 15px;
+
+}
+
+.right_inner .li_wrapp .info:before{
+  content: "";
+  position:absolute;
+  top:10px;
+  left:0px;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background: #f84700;
+}
+.right_inner .li_wrapp .info:after{
+  content: "";
+  position:absolute;
+  top:10px;
+  left:4px;
+  width:2px;
+  height:90%;
+  background: #f84700;
 }
