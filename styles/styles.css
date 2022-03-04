@@ -10,10 +10,6 @@ body{
   background: linear-gradient(to left,#ff6b47,#ff956c);
 }
 
-img{
-  border-radius: 50%;
-  
-}
 .resume{
 
   width:800px;
@@ -33,11 +29,15 @@ img{
  .left .img_holder{
    text-align: left;
    padding: 20px 0;
+   object-fit: cover;
+
  }
 
+
  .left .img_holder img{
-    width:180 px;
     border-radius: 30px;
+    margin-right: auto;
+    object-fit: cover;
  }
  .pb{
    padding-bottom: 20px;
