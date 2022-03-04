@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style:none ;
   font-family: 'Roboto Condensed', sans-serif;
+  border: black;
 }
 body{
   background: linear-gradient(to left,#ff6b47,#ff956c);
@@ -21,6 +22,7 @@ body{
   background: #FF9E48;
   width: 250px;
   padding:0 20px;
+  
 }
  .right{
    width: calc(100%- 250px);
@@ -92,22 +94,18 @@ margin-bottom: 15px;
   color: #f53100;
 }
 
-.skills ul,
+/*.skills ul,
 .hobbies ul{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+}*/
 .skills .li_wrapp,
 .hobbies .li_wrapp{
-  margin-bottom: 15px;
-  width: 100px;
-  height: 100 px;
-  border-radius: 30%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 100%;
+  margin-bottom: 15px;
   
 }
 .skills .li_wrapp .text,
